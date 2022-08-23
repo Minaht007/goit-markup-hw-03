@@ -44,6 +44,10 @@ a {
     --bancground-color: #fff;
 }
 
+.header-nav.current {
+    color: var(--add-color);
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -399,8 +403,7 @@ header {
 }
 
 .project-itemes {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
@@ -413,7 +416,7 @@ header {
     line-height: 2;
     text-decoration: none;
     color: var(--main-color);
-    padding-top: 4px;
+    margin-bottom: 4px;
  }
 
 .project-list {
@@ -424,13 +427,6 @@ header {
     color: var(--filter-menu);
 }
 
-.project-link {
-    display: block;
-    width: 370px;
-   
-
-
-}
 
 .footer {
     background: #2F303A;
@@ -459,16 +455,13 @@ header {
     line-height: 1.7;
     color: var(--filter-menu);
     margin-top: 20px;
-
+    color: #FFFFFF;
 }
 
 
 
-
 .foot-link {
-
     line-height: 1.7;
-
     color: rgba(255, 255, 255, 0.6);
 }
 
