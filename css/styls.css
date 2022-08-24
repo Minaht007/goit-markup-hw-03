@@ -42,6 +42,7 @@ a {
     --add-color: #2196F3;
     --filter-menu: #757575;
     --bancground-color: #fff;
+    --fon-color: #F5F4FA
 }
 
 .header-nav.current {
@@ -231,6 +232,7 @@ header {
     display: flex;
 }
 
+
 .advantages-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -239,7 +241,22 @@ header {
     width: 270px;
 }
 
+.advantages-box {
+    display: flex;
+    background-color: var(--fon-color);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
 
+ 
+}
+.advantages-icon {
+   justify-content: center;
+   align-items: center;   
+}
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 .about {
