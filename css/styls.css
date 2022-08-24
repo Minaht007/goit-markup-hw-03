@@ -250,12 +250,10 @@ header {
     align-items: center;
     margin-bottom: 30px;
     height: 120px;
+    width: 270;
+    border-radius: 4px;
 
  
-}
-.advantages-icon {
-   justify-content: center;
-   align-items: center;   
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
