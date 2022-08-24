@@ -73,12 +73,6 @@ header {
 /* header */
 
 
-/* .navigate{
-    display: flex;
-    align-items: center; 
-} */
-
-
 .logof {
     color: var(--main-color);
 
@@ -251,9 +245,7 @@ header {
     margin-bottom: 30px;
     height: 120px;
     width: 270;
-    border-radius: 4px;
-
- 
+    border-radius: 4px; 
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
@@ -306,6 +298,7 @@ header {
 }
 
 .team-item {
+    height: 428px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px
@@ -329,13 +322,17 @@ header {
     letter-spacing: 0.03em;
     color: var(--main-color);
     margin-bottom: 10px;
-
-
 }
 
 .team-wrap {
-    padding: 30px 0;
+    padding-top: 30px;
 }
+
+.social-icons {
+  margin-bottom: 30px;   
+}
+
+
 
 
 
