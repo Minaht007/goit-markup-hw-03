@@ -163,6 +163,8 @@ header {
     padding-bottom: 200px;
     background-color: #2F303A;
     text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imeges/hero/hero.jpg);
+    background-size: cover;
 }
 
 
@@ -313,6 +315,7 @@ header {
     letter-spacing: 0.03em;
     color: var(--filter-menu);
     text-align: center;
+    padding-bottom: 16px;
 }
 
 .team-name {
@@ -328,12 +331,44 @@ header {
     padding-top: 30px;
 }
 
-.social-icons {
-  margin-bottom: 30px;   
+.team-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-list-social {
+    margin: 0;
+    padding: 0;
+    
+    
+    
+    
+}
+.social-link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;      
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+/* .social-link:not(:last-child) {
+    margin-right: 10px;
+} */
+.social-link:hover, 
+.social-link:focus {
+    background-color: var(--add-color);
 }
 
-
-
+.svg-collor {    
+    fill: #AFB1B8;  
+     
+}
+.social-link:hover .svg-collor,
+.social-link:focus .svg-collor {
+    fill: #FFFFFF;
+}
 
 
 /* PAGE PORTFOLIO */
