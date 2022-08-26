@@ -155,6 +155,16 @@ header {
     color: var(--add-color);
 }
 
+.contacts-icon {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    margin-right: 10px;
+}
+.contacts-icon:hover,
+.contacts-icon:focus {
+    fill: var(--add-color);
+}
+
 /* HERO */
 
 .hero {
@@ -356,9 +366,15 @@ header {
 /* .social-link:not(:last-child) {
     margin-right: 10px;
 } */
+
 .social-link:hover, 
 .social-link:focus {
     background-color: var(--add-color);
+}
+
+.social-link {
+    justify-content: center;
+    align-items: center;
 }
 
 .svg-collor {    
