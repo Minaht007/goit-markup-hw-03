@@ -185,8 +185,7 @@ header {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #2F303A;
+    color: #FFFFFF;   
     width: 696px;
     margin-left: auto;
     margin-right: auto;
@@ -347,35 +346,29 @@ header {
     align-items: center;
 }
 .team-list-social {
-    margin: 0;
-    padding: 0;
-    
-    
-    
-    
+    justify-content: center;
+    align-items: center;
+  
 }
+
 .social-link {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;      
     border-radius: 50%;
     background-color: #FFFFFF;
+    
+    
 }
-/* .social-link:not(:last-child) {
-    margin-right: 10px;
-} */
+
 
 .social-link:hover, 
 .social-link:focus {
     background-color: var(--add-color);
 }
 
-.social-link {
-    justify-content: center;
-    align-items: center;
-}
 
 .svg-collor {    
     fill: #AFB1B8;  
@@ -386,6 +379,48 @@ header {
     fill: #FFFFFF;
 }
 
+/* НАШИ КЛИЕНТЫ */
+
+.clients {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);    
+}
+
+.clients-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.client-list {
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.client-list:not(:last-child) {
+    margin-right: 30px;
+}
+.client-link {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+
+} 
+
+.client-icon {   
+    fill: #AFB1B8;     
+}
 
 /* PAGE PORTFOLIO */
 
@@ -512,7 +547,6 @@ header {
 
 }
 
-
 .adress {
     font-style: normal;
     line-height: 1.7;
@@ -521,8 +555,6 @@ header {
     color: #FFFFFF;
 }
 
-
-
 .foot-link {
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
@@ -530,4 +562,39 @@ header {
 
 .fotter-link:not(:last-child) {
     margin-bottom: 9px;
+}
+
+.foot-social_icons-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-login {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.foot-social_icons-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-icons-color {
+    fill: #FFFFFF;
 }
