@@ -418,6 +418,7 @@ header {
 }
 .svg-item {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -618,14 +619,20 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.foot-social_icons-title:hover,
+.foot-social_icons-title:focus {
+    background-color: var(--add-color);
+}
+
 .foot-social_icons-title:not(:last-child) {
     margin-right: 10px;
 }
 
-.foot-icons-color:hover,
+/* .foot-icons-color:hover,
 .foot-icons-color:focus {
     fill: var(--add-color);
-}
+} */
 
 .foot-icons-color {
     fill: #FFFFFF;
