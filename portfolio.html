@@ -17,23 +17,33 @@
          
   </head>
   <body>
-       <header>  
+      <header>  
       <div class="container navigate">
         <nav class="navigate-nav">
           <a href="/" class="header" >Web<span class="logof">Studio</span></a>
           <ul class="navigate-list">
-            <li class="navigate-item"><a class="header-nav " href="./index.html"> Студия</a></li>
-            <li class="navigate-item "><a class="header-nav current" href="./portfolio.html">Портфолио</a></li>
+            <li class="navigate-item"><a class="header-nav current" href="./index.html"> Студия</a></li>
+            <li class="navigate-item"><a class="header-nav " href="./portfolio.html">Портфолио</a></li>
             <li class="navigate-item"><a class="header-nav " href="">Конткты</a></li>
           </ul>
         </nav>  
 
           <ul class="navigate contacts ">
+            <li class="contacts-icon">
+              <svg width="16" height="12">
+                <use href="./imeges/contact-icon/contact-icons.svg#icon-mail"> </use>
+              </svg>
+            </li>
                <li class="contacts-item">
             <a class="contact " href="mailto:info@devstudio.com"
               >info@devstudio.com</a>
             </li>
              <li class="contacts-item">
+              <li class="contacts-icon">
+              <svg width="10" height="16">
+                <use href="./imeges/contact-icon/contact-icons.svg#icon-phone"> </use>
+              </svg>
+            </li>
             <a class="contact " href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>      
@@ -149,17 +159,17 @@
           </section>       
     </main>
 
-  <footer class="footer">
-       <div class="container">  
-        <a href="/" class="header-foot bottom-id"> <span class="logos">Web</span><span class="logo-foot">Studio</span></a>
-        <address class="adress ">
-          
-                  
+  <!-- ФУТЕР -->
+
+       <footer class="footer">
+        <div class="container footer">  
+          <div>
+            <a href="/" class="header-foot bottom-id"> <span class="logos">Web</span><span class="logo-foot">Studio</span></a>
+        <address class="adress ">   
 
           <ul>
             <li class="fotter-link">
-              <a class="adress" href="https://www.google.com.ua/maps"
-            >   
+              <a class="adress" href="https://www.google.com.ua/maps">   
            г. Киев, пр-т Леси Украинки, 26 </a>
             </li>         
           <li class="fotter-link">
@@ -172,9 +182,54 @@
           </li>
           </ul>
         </address> 
-
-       </div>
+          </div>
         
-    
+
+        <!-- ФУТЕР-СОЦИАЛЬНЫЕ ИКОНКИ -->
+
+       <div class="foot-social_icons">        
+        <h3 class="foot-login">ПРСОЕДИНЯЙТЕСЬ</h3>
+        <ul class="foot-social_icons-list">
+
+          <li class="foot-social_icons-title">
+            <a class="foot-social_icons-icons" href="">
+              <svg class="foot-icons-color" width="20" height="20">
+                <use href="./imeges/social-icon/social-icons.svg#icon-instagram-2">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="foot-social_icons-title">
+            <a class="foot-social_icons-icons" href="">
+              <svg class="foot-icons-color" width="20" height="20">
+                <use href="./imeges/social-icon/social-icons.svg#icon-twitter-1">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="foot-social_icons-title">
+            <a class="foot-social_icons-icons" href="">
+              <svg class="foot-icons-color" width="20" height="20">
+                <use href="./imeges/social-icon/social-icons.svg#icon-facebook-1">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="foot-social_icons-title">
+            <a class="foot-social_icons-icons" href="">
+              <svg class="foot-icons-color" width="20" height="20">
+                <use href="./imeges/social-icon/social-icons.svg#icon-linkedin-1">
+                </use>
+              </svg>
+            </a>
+          </li>
+
+        </ul>
+       </div>
+      </div>
+
     </footer>
   </body>

@@ -534,6 +534,7 @@ header {
 
 
 .footer {
+    display: flex;
     background: #2F303A;
     padding: 60px 0;
 }
@@ -582,8 +583,9 @@ header {
 
 .foot-social_icons {
     display: flex;
-    margin-left: 152px;
-        padding-top: 76px;
+    flex-direction: column;
+    margin-left: 70px;
+   
 }
 
 .foot-login {
@@ -595,6 +597,7 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
    
 }
 
