@@ -45,7 +45,7 @@ a {
     --fon-color: #F5F4FA
 }
 
-.header-nav, .current {
+.header-nav.current {
     color: var(--add-color);
 }
 
